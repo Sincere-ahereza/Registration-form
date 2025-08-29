@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Validate Password
         if (passwordInput.value.length < 6) {
-            passwordError.textContent = 'Password must be at least 6 characters long.';
+            passwordError.textContent = 'Password must be at least 8 characters long.';
             isValid = false;
         }
 
